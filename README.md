@@ -10,9 +10,9 @@ Este repositório contém o desafio para candidatos à vaga de estágio em desen
 
 O desafio é dividido em etapas de dificuldade crescente. Siga as instruções de cada etapa e envie suas soluções conforme orientado.
 
-Esse desafio deve ser realizado até onde você conseguir. É interessante que tente resolver com o mínimo de auxílio de IA possível. Mas sinta-se à vontade para pesquisar na internet sobre conteúdos que o auxiliem, mas evite plágio!
+Esse desafio deve ser realizado até onde você conseguir. É interessante que tente resolver com o mínimo auxílio de IA possível. Mas sinta-se à vontade para pesquisar na internet sobre conteúdos que o auxiliem, mas evite plágio!
 
-Ao final, a entrega deve ser os códigos produzidos e um README.md explicando os códigos produzidos em cada etapa de maneira sucinta.
+Ao final, a entrega deve conter os códigos produzidos e um README.md explicando os códigos produzidos em cada etapa de maneira sucinta.
 
 ---
 
@@ -40,7 +40,7 @@ Note que se for uma linguagem que precise ser compilada, liste o compilador e co
 - Implemente uma função que filtre números pares de um array.
 - Implemente uma função que conte a frequência de cada palavra em uma frase.
 
-**Entrega:** Crie um arquivo `etapa2.js`, ou mais caso achar necessário, com o código e exemplos de uso.
+**Entrega:** Crie um arquivo `etapa2.js`, ou mais caso achar necessário, com o código e exemplos de uso. É interessante que para cada função haja pelo menos três chamadas retornando os valores corretos.
 
 ---
 
@@ -53,7 +53,7 @@ Note que se for uma linguagem que precise ser compilada, liste o compilador e co
 - Implemente uma função genérica que embaralhe os elementos de um array de qualquer tipo.
 - Implemente um sistema simples de cadastro de produtos, utilizando classes e interfaces.
 
-**Entrega:** Crie um arquivo `etapa3.ts`, ou mais caso achar necessário, com o código e exemplos de uso.
+**Entrega:** Crie um arquivo `etapa3.ts`, ou mais caso achar necessário, com o código e exemplos de uso.  É interessante que para cada função haja pelo menos três chamadas retornando os valores corretos. Documente as classes utilizadas e descreva exemplos de teste para o sistema.
 
 ---
 
