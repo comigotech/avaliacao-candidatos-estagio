@@ -1,0 +1,26 @@
+{
+  "name": "etapa3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/etapa3_3.js",
+    "dev": "ts-node src/etapa3_3.ts",
+    "start:1": "node dist/etapa3_1.js",
+    "start:2": "node dist/etapa3_2.js",
+    "start:3": "node dist/etapa3_3.js",
+    "dev:1": "ts-node src/etapa3_1.ts",
+    "dev:2": "ts-node src/etapa3_2.ts",
+    "dev:3": "ts-node src/etapa3_3.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
