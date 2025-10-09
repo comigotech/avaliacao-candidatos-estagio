@@ -15,6 +15,17 @@ public class Main {
         return somaTotal;
     }
 
+    public static Object[] inverterArray(Object[] elementos) {
+        if (elementos == null) {
+            return new Object[0];
+        }
+        Object[] arrayInvertido = new Object[elementos.length];
+        for (int i = 0; i < elementos.length; i++) {
+            arrayInvertido[i] = elementos[elementos.length - 1 - i];
+        }
+        return arrayInvertido;
+    }
+
     public static void main(String[] args) {
 
         System.out.println("### Testes da Função: somarElementos ###");
@@ -32,5 +43,22 @@ public class Main {
         int[] arraySoma3 = {-5, 10, 2, -1};
         System.out.println("Entrada: " + Arrays.toString(arraySoma3));
         System.out.println("Saída: " + somarElementos(arraySoma3));
+        System.out.println("\n");
+
+        System.out.println("### Testes da Função: inverterArray ###");
+        Integer[] arrayInversao1 = {1, 2, 3, 4, 5};
+        System.out.println("Entrada: " + Arrays.toString(arrayInversao1));
+        System.out.println("Saída: " + Arrays.toString(inverterArray(arrayInversao1)));
+        System.out.println("--------------------");
+
+        String[] arrayInversao2 = {"a", "b", "c"};
+        System.out.println("Entrada: " + Arrays.toString(arrayInversao2));
+        System.out.println("Saída: " + Arrays.toString(inverterArray(arrayInversao2)));
+        System.out.println("--------------------");
+
+        Integer[] arrayInversao3 = {99};
+        System.out.println("Entrada: " + Arrays.toString(arrayInversao3));
+        System.out.println("Saída: " + Arrays.toString(inverterArray(arrayInversao3)));
+        System.out.println("\n");
     }
 }
