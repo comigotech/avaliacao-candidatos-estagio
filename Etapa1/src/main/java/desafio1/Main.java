@@ -26,10 +26,27 @@ public class Main {
         return arrayInvertido;
     }
 
+    public static Object[] rotacionarArray(Object[] array, int n) {
+        if (array == null || array.length == 0 || n <= 0 || n >= array.length) {
+            return array;
+        }
+        Object[] resultado = new Object[array.length];
+
+        int indiceResultado = 0;
+        for (int i = n; i < array.length; i++) {
+            resultado[indiceResultado] = array[i];
+            indiceResultado++;
+        }
+        for (int i = 0; i < n; i++) {
+            resultado[indiceResultado] = array[i];
+            indiceResultado++;
+        }
+        return resultado;
+    }
+
     public static void main(String[] args) {
 
         System.out.println("### Testes da Função: somarElementos ###");
-
         int[] arraySoma1 = {};
         System.out.println("Entrada: " + Arrays.toString(arraySoma1));
         System.out.println("Saída: " + somarElementos(arraySoma1));
@@ -60,5 +77,24 @@ public class Main {
         System.out.println("Entrada: " + Arrays.toString(arrayInversao3));
         System.out.println("Saída: " + Arrays.toString(inverterArray(arrayInversao3)));
         System.out.println("\n");
+
+        System.out.println("### Testes da Função: rotacionarArray ###");
+        Integer[] array1 = {1, 2, 3, 4, 5, 6};
+        int n1 = 3;
+        System.out.println("Entrada: " + Arrays.toString(array1) + ", n = " + n1);
+        System.out.println("Saída:   " + Arrays.toString(rotacionarArray(array1, n1)));
+        System.out.println("--------------------");
+
+        String[] array2 = {"ProcessoA", "ProcessoB", "ProcessoC", "ProcessoD"};
+        int n2 = 1;
+        System.out.println("Entrada: " + Arrays.toString(array2) + ", n = " + n2);
+        System.out.println("Saída:   " + Arrays.toString(rotacionarArray(array2, n2)));
+        System.out.println("--------------------");
+
+        Integer[] array3 = {100, 200, 300, 400, 500};
+        int n3 = 4;
+        System.out.println("Entrada: " + Arrays.toString(array3) + ", n = " + n3);
+        System.out.println("Saída :   " + Arrays.toString(rotacionarArray(array3, n3)));
+        System.out.println("--------------------");
     }
 }
