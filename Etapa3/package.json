@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/etapa3.ts"
+    "start:filtro": "ts-node src/etapa3FiltroIdade.ts",
+    "start:embaralhar": "ts-node src/etapa3Embaralhar.ts",
+    "start:cadastro": "ts-node src/etapa3CadastroProdutos.ts"
   },
   "keywords": [],
   "author": "",
