@@ -26,3 +26,9 @@ pnpm-debug.log*
 # Regras do Sistema Operacional
 .DS_Store
 Thumbs.db
+
+# TypeScript
+dist/
+build/
+*.js
+*.js.map
