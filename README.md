@@ -1,6 +1,6 @@
 # Avaliação para Candidatos a Estágio - Desenvolvedor TypeScript
 
-<img src="https://private-user-images.githubusercontent.com/62721947/488413240-e645667c-a5a4-4045-9934-a8f02dc7a3f9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc2MDU0NDEsIm5iZiI6MTc1NzYwNTE0MSwicGF0aCI6Ii82MjcyMTk0Ny80ODg0MTMyNDAtZTY0NTY2N2MtYTVhNC00MDQ1LTk5MzQtYThmMDJkYzdhM2Y5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTExVDE1MzkwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiMzA4NDM2NGMzZjA2MDI2NDZmZmRkOTk1Y2E5ZTBjMDBhMWFiYWMyYjc4ZjE3ODM0MzQyMTI5OGU0Y2JjNTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.aZqyv8_ltLY9PpD6qR9wUMIA5YdrCx6TKzd_1gH2j_c" />
+<img width="2000" height="2000" alt="Image" src="https://github.com/user-attachments/assets/e645667c-a5a4-4045-9934-a8f02dc7a3f9" />
 
 Bem-vindo(a)! Que bom que você tem interesse em se juntar a equipe de desenvolvimento da Comigo!
 
@@ -24,9 +24,9 @@ Note que se for uma linguagem que precise ser compilada, liste o compilador e co
 **Desafios etapa 1:**
 - Implemente uma função que receba um array de números e retorne a soma dos elementos.
 
-- Implemente uma função que resceba como parametro um array de números e retorne um array com todos os elementos invertidos.
+- Implemente uma função que receba como parametro um array de números e retorne um array com todos os elementos invertidos.
 
-- **Desafio** Dado um array de números, crie uma função que resceba esse array e um número n qualquer como parametros. O código deve pegar os n primeiros números do array e remove-los do array e concatenar na cauda(parte de traz do array). Trate quaisquer casos que achar necessário.
+- **Desafio** Dado um array de números, crie uma função que receba esse array e um número n qualquer como parametros. O código deve pegar os n primeiros números do array e remove-los do array e concatenar na cauda(parte de traz do array). Trate quaisquer casos que achar necessário.
 
 **Entrega:** Crie um arquivo `etapa1.<extensão>`, ou mais arquivos se desejar, com o código e as chamadas das funções passando os parametros. É interessante que para cada função haja pelo menos três chamadas retornando os valores corretos.
 
