@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etapa 2</title>
+    <script src="etapa2.js"></script>
+</head>
+<body>
+    <h2>Filtrando somente os numeros pares</h2>
+
+    <p>Digite os numeros a serem filtrados separados por virgula</p>
+
+    <input type="text" id="Enter" placeholder="ex: 1, 2, 3, 4, 5, 6"><br><br>
+
+    <button onclick="ShowNumbers('Enter','Result')">Filtrar</button><br><br>
+    <input type="text" id="Result" readonly><br><br>
+
+    <h3>Exemplo 1:</h3>
+
+    <input type="text" value="42, 17, 89, 5, 73, 31, 96, 23" readonly id="Enter2"><br><br>
+
+    <button onclick="ShowNumbers('Enter2','Result2')">Revelar resultado</button><br><br>
+
+    <input type="text" id="Result2" readonly>
+
+    <h3>Exemplo 2:</h3>
+
+    <input type="text" value="7, 88, 34, 62, 19, 95, 41, 76" readonly id="Enter3"><br><br>
+
+    <button onclick="ShowNumbers('Enter3','Result3')">Revelar resultado</button><br><br>
+
+    <input type="text" id="Result3" readonly>
+
+    <h1>Contando o numero de palavras</h1>
+
+    <input type="text" id="Phrase" size="50" placeholder="Insira um texto para contar o numero de palavras">
+    <button onclick="CountFrequency()">Contar</button>
+
+    <h3>Resultado:</h3>
+    <div id="ResultText"></div>
+</body>
+</html>
